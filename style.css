@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+
+}
+.one {
+    color: green;
+}
+
+.two {
+    width: 200px;
+    height: 600px;
+   
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 5px;
+
+
+}
+.arrange {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 10px; 
+
+}
+.img{
+    text-align: center;
+    width: 200px;
+    border-top-left-radius:  5px; 
+    border-top-right-radius: 5px;
+}
+
+button {
+    background-color:white ;
+    border-color: aqua;
+    border: width 15px; 
+    color: greenyellow;
+    width:100px ;
+}
+button:hover {
+    background-color: aqua;
+    border-color: antiquewhite;
+    color: black;
+}
+.navigation  {
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: blue;
+    color: azure;
+    position: fixed;
+     display: flex;
+    text-align: center;
+    justify-content:space-between;
+   
+
+}
+.navigation  a {
+   text-decoration: none;
+     color: azure;
+     margin-right: 20px;
+    
+    }
+
+.logo-sizeing {
+    height: 40px; 
+    
+}
+.six {
+    margin-top: 70px;
+}
+ .inline {
+    display: inline;
+    text-decoration: inherit;
+    color:inherit;
+
+ }
+
+.four {
+    height: 100vh;
+
+
+}
+
+.teen {
+    height: 200px;
+    width:295px ;
+     text-align: center ;
+    background-color: aqua;
+}
+.teen::before {
+    display: block;
+    height: 200px;
+    width: 7px;
+    background-color: black;
+    content: "";
+    position: absolute;
+    transition:400ms ;
+    z-index:1;
+}
+.teen * {
+    margin: 15px;
+    position: relative;
+    z-index: 2;
+}
+.teen:hover::before {
+    background-color:black ;
+    width: 295px;
+   
+} 
+.teen:hover p {
+    color:aqua;
+}
+.PROJECT {
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+color: antiquewhite;
+background-color: blue;
+font-family: 'Arial Narrow Bold';
+
+}
+.dis {
+    width: 200px;
+}
+.design {
+ font-size:100px ;
+
+}
+.COLOR {
+    color:red;
+}

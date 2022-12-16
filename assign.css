@@ -1,0 +1,90 @@
+.background {
+    background-image: linear-gradient(#3B3486,#937DC2);
+ }
+ .logo {
+     height: 50px;
+     margin-left: 30px ;
+ }
+ .styling {
+     top: 20px;
+     right: 0px;
+     left: 0px;
+     background-color:  transparent;
+     position: fixed;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ 
+ }
+ 
+ 
+ .but {
+      border: 1px;
+     border-radius: 25px;
+    margin-right: 30px;
+    height: 30px; 
+    width: 60px;
+    background-color: white;
+    color: black;
+    
+
+ }
+ .but:hover {
+    background-color: crimson;
+    color: aliceblue;
+ }
+ li {
+    display: inline;
+
+ }
+ li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    }
+    li a:hover {
+      color: crimson;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    h1 { 
+        font-family: sans-serif;
+        margin-top: 200px;
+        margin-bottom: 0px;
+       font-size: 40px;
+       color: white;
+       
+    }
+    h2 {
+        font-family: sans-serif;
+        font-size: 100px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: white;
+    }
+    p {
+        margin-top: 0px;
+        font-family: sans-serif;
+        
+        margin-bottom: 0px;
+        color: white;
+        display: block;
+       font-size: 20px;
+    }
+    .with {
+        color: white;
+        background-color: black;
+        margin-left:  20px; 
+        margin-top: 20px;
+             padding: 10px; 
+    }
+    section {
+        display: block;
+        margin-left: 30px;
+        
+    }
