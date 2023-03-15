@@ -1,29 +1,5 @@
-.enter{
-    width: 200px;
-    height: 200px;
-    border-radius: 60%;
-    border: 20px solid blue;
-    border-bottom: 20px solid transparent;
-    animation-name: moment;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-
-}
-@keyframes moment {
-    0%{
-        transform: rotate(0deg);
-    }
-    50%{
-        transform: rotate(180deg);
-    
-    }
-    100%{transform: rotate(360deg);}
-}
-.seen{
+.seen {
     width: 100vw;
     height: 100px;
     background-color: blueviolet;
 }
-
-
