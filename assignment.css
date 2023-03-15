@@ -86,6 +86,33 @@ body {
     grid-template-columns: 0.1fr 0.4fr 0.2fr 0.3fr 0.5fr;
     grid-template-rows: 0.3fr 0.1fr 0.15fr 0.15fr 0.05fr;
     overflow: hidden;
+    animation-name: movement;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 10;
+   }
+   @keyframes movement {
+     0% {
+      height: 80vh;
+    width: 0px;
+    right: 0px;
+    top: 60vh;
+
+     }
+
+     50% {
+      height: 80vh;
+    width: 70vw;
+    left: 15px;
+    top: 60vh;
+     }
+     100% {
+      height: 80vh;
+    width: 0px;
+    right: 0px;
+    top: 60vh;
+
+     }
    }
    .box {
     height: 100%;
