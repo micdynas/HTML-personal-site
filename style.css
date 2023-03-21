@@ -160,8 +160,35 @@ H3 {
    color: gray;
 }
 
+.save {
+   margin-left: 43%;
+   margin-top: 15%;
+   font-size: 53px;
+}
 
+.SEEM {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+   font-size: 28px;
+   font-weight: 400;
+   color: gray;
+}
 
+.real {
+
+   width: 100vw;
+   height: 80.4vh;
+   background-image: linear-gradient(90deg, rgba(79, 75, 79, 0.411)),
+      url(/recommendations-featured_image.width-720.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: scroll;
+   background-position: center;
+
+}
 
 @media(max-width: 700px) {
    * {
@@ -253,9 +280,11 @@ H3 {
    .PROJECT {
       display: flex;
       flex-direction: column;
+      justify-content: space-around;
       text-align: center;
-      margin-top: 10vh;
-      margin-left: 7vw;
+      margin-top: 10%;
+      margin-left: 6%;
+
       color: white;
       position: absolute;
 
@@ -264,14 +293,14 @@ H3 {
    }
 
    H1 {
-      font-size: 50px;
+      font-size: 58px;
       margin-bottom: 0px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: auto;
    }
 
    H3 {
-      font-size: 45px;
+      font-size: 48px;
       margin-top: 2px;
       margin-bottom: 0.5px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -279,9 +308,9 @@ H3 {
    }
 
    .set {
-      margin-left: 25%;
+      margin-left: 27%;
       margin-top: 10%;
-      font-size: 40px;
+      font-size: 50px;
 
    }
 
@@ -335,5 +364,25 @@ H3 {
       font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
       color: gray;
    }
+
+   .save {
+      margin-left: 33%;
+      margin-top: 15%;
+      font-size: 50px;
+   }
+
+   .SEEM {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      color: rgb(92, 87, 87);
+
+   }
+
+
 
 }
